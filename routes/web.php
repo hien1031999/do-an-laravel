@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
-    return view('dangki');
+    return view('user/page/index');
 });
