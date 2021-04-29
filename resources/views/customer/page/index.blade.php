@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop Balo</title>
-    <link href='../css/plugin.css' rel='stylesheet' type='text/css'/>
-    <link href='../css/base.css' rel='stylesheet' type='text/css'/>
-    <link href='../css/style.css' rel='stylesheet' type='text/css'/>
-    <link href='../css/module.css' rel='stylesheet' type='text/css'/>
-    <link href='../css/responsive.css' rel='stylesheet' type='text/css'/>
+    <link href="{{resources('css/plugin.css')}}" rel='stylesheet' type='text/css'/>
+    <link href="{{resources('css/base.css')}}" rel='stylesheet' type='text/css'/>
+    <link href="{{resources('css/style.css')}}" rel='stylesheet' type='text/css'/>
+    <link href="{{resources('css/module.css')}}" rel='stylesheet' type='text/css'/>
+    <link href="{{resources('css/responsive.css')}}" rel='stylesheet' type='text/css'/>
     <style>
         footer .footer-info-widget p.hotline a{color:#fff}
         .product-box .sale-flash{background-color:#898989}
@@ -26,7 +26,7 @@
         .lightboxContain iframe{border:0;width:100%!important;height:100%!important}
         .lightboxContain img{float:none;max-width:100%;height:auto;max-height:100%;margin:0 auto}
     </style>
-    <script src='../js/module.js'></script>
+    <script src="{{resources('js/module.js')}}"></script>
 </head>
 <body>
     <div class="hidden-md hidden-lg opacity_menu"></div>
