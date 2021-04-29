@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCartDetailsTable extends Migration
+class CreateVaiTroTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,9 @@ class CreateCartDetailsTable extends Migration
      */
     public function up()
     {
-        Schema::create('cart_details', function (Blueprint $table) {
-            $table->id();
+        Schema::create('vai_tro', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('ten', 50);
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ class CreateCartDetailsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('cart_details');
+        Schema::dropIfExists('vai_tro');
     }
 }
