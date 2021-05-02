@@ -13,7 +13,10 @@ use Illuminate\Support\Facades\Auth;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('user/page/index');
+Route::get('/trangchu', function () {
+    return view('user.page.trangchu');
 });
+Route::get('/sanpham', function () {
+    return view('user.page.sanpham');
+});
+
